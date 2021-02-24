@@ -1,0 +1,236 @@
+@import "https://use.fontawesome.com/releases/v5.15.2/css/all.css";
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;400&family=Montserrat:wght@500&display=swap');
+
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.header {
+    background-image: url("./images/hero-certificates.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.header-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    padding: 50px;
+    flex-wrap: wrap;
+}
+
+.header-content-text {
+    border-radius: 8px;
+    background: #29394B;
+    color: white;
+    flex-basis: 60%;
+    padding: 20px;
+}
+
+.header-content-text p,
+.header-content-text h2 {
+    padding: 10px;
+}
+
+.header-content-text-final {
+    flex-basis: 100%;
+    padding: 20px 10px 0 20px;
+    font-style: italic;
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    background: white;
+    box-shadow: 0 3px 5px 1px rgba(0, 0, 0, 0.85);
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+
+.header-content-image-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.logo-wrapper {
+    width: 100px;
+    margin: 10px;
+}
+
+.header ul {
+    display: flex;
+    align-items: flex-end;
+}
+
+.header nav ul li {
+    padding: 10px 10px;
+}
+
+.header-nav-certificates {
+    border-top: 4px solid #44A9F8;
+}
+
+.header-nav-aa {
+    background: #44A9F8;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.main {
+    max-width: 1200px;
+    margin: 50px auto;
+
+}
+
+.certificates {
+    background-image: url("./images/hero-certificates.jpg");
+}
+
+.certs {
+    display: flex;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.certificates-wrapper {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.certificates-content {
+    border-radius: 8px;
+    background: #29394B;
+    color: white;
+    padding: 10px;
+    flex-basis: 60%;
+}
+
+.certificates-content-text-title {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.certificates-content-text p {
+    padding: 10px 0;
+}
+
+.certificates-content-summary {
+    font-style: italic;
+    padding: 10px;
+}
+
+.certificates-diploma-image-wrapper {
+    flex-basis: 40%;
+}
+
+.certificates-diploma-image-wrapper {
+    display: flex;
+}
+
+.diploma-title {
+    text-align: center;
+    font-size: 24px;
+    margin: 50px auto;
+}
+
+.diploma-text {
+    background: #F4F5F7;
+    border-radius: 8px;
+    padding: 30px;
+}
+
+.diploma-text p {
+    padding: 20px 20px;
+}
+
+.diploma-footer-text {
+    padding: 20px 0;
+}
+
+.explore {
+    background-image: url("./images/sign-up-prompt-background.jpg");
+    border-radius: 12px;
+    min-height: 260px;
+    width: 100%;
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.explore-title {
+    font-size: 36px;
+}
+
+.explore-text {
+    font-size: 18px;
+    max-width: 75%;
+    text-align: center;
+    margin: 20px auto;
+}
+
+.btn-separator {
+    margin: 0 20px;
+}
+
+.btn-apply {
+    color: #62B9F9;
+    padding: 10px 40px;
+    border: unset;
+    border-radius: 4px;
+}
+
+.btn-curriculum {
+    background: transparent;
+    padding: 10px 40px;
+    color: white;
+    border: 1px solid white;
+    border-radius: 4px;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    padding: 20px 0 20px 0;
+    border-top: 1px solid black;
+    margin: 0 auto;
+}
+
+.footer-logo-wrapper {
+    display: flex;
+    align-items: center;
+}
+
+.footer-logo-wrapper p {
+    color: lightgray;
+    font-size: 14px;
+}
+
+.footer-logo-img-wrapper {
+    width: 100px;
+    margin: 0 10px;
+}
+
+.footer-navigation-wrapper ul {
+    display: flex;
+    align-items: center;
+}
+
+.footer-navigation-wrapper nav ul li {
+    padding: 0 5px 0 5px;
+}

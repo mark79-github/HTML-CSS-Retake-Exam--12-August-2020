@@ -1,0 +1,19 @@
+@media all and (max-width: 600px) {
+    .thumbnails {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .thumbnails div {
+        width: 100%;
+    }
+
+    .thumbnails div a {
+        max-height: 400px;
+    }
+
+    .thumbnails div a img {
+        height: 300px;
+        object-fit: cover;
+    }
+}
